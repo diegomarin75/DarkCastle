@@ -1,0 +1,27 @@
+GLOBAL COMMANDS
+
+Main menu:
+ F1  = Help on / off
+ F2  = File menu
+ F3  = Change edition mode
+ F4  = Texture browser
+ F5  = Object browser
+ F6  = Entity type browser
+ F12 = Exit program
+
+File menu:
+ F2 = Create new file  
+ F3 = Open file
+ F4 = Save file
+
+Display modes:
+ Ctrl-T = Change texture mode (On/Fixed/Solid/Box/Off)
+ Ctrl-O = Change object mode  (On/Fixed/Solid/Box/Off)
+ Ctrl-L = Change light mode   (Dynamic/Map/Off)
+
+Other commands:
+ Ctrl-F  = Toogle FPS mode
+ Esc     = Menu exit
+ Ctrl-F1 = Change help page
+ 1234567 = Set edition mode directly 
+ RETURN  = Calculate light map

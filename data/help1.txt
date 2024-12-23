@@ -1,0 +1,44 @@
+EDITION MODE COMMANDS
+
+Edition mode 1: Map attributes
+ Cursor      =Change map center 
+ Ctrl-Cursor =Change map size
+ Pag+/Pag-   = Change cell size
+
+Edition mode 2: Heights,Textures,Objects
+ a     =Floor up                  s          =Ceiling up
+ z     =Floor down                x          =Ceiling down
+ Ctrl-z=Floor zero                Ctrl-x     =Ceiling zero
+ Pag+  =Height up                 Pag-       =Height down
+ b     =Set floor base texture    B          =Set ceiling base texture  
+ c     =Set ceiling left texture  C          =Set ceiling right texture
+ m     =Set middle left texture   M          =Set middle right texture 
+ f     =Set floor left texture    F          =Set floor right texture 
+ o     =Set object
+ i,k   =Object height (+-1)       Ctrl-i,k   Object height (+-0.1)          
+ Cursor=Change cell               Ctrl-Cursor=Select area
+ Ctrl-C=Copy area                 Ctrl-V     =Paste area 
+
+Edition mode 3: Texture attributes
+ b     =Select floor base texture    B          =Select ceiling base texture  
+ c     =Select ceiling left texture  C          =Select ceiling right texture
+ m     =Select middle left texture   M          =Select middle right texture 
+ f     =Select floor left texture    F          =Set floor right texture 
+ n     =Toogle continuous flag       p          =Toogle pass through flag
+ Cursor=Change offset/cell           Ctrl-Cursor=Select area
+ Ctrl-C=Copy area                    Ctrl-V     =Paste area
+
+Edition mode 4: Overlay textures
+ Ctrl-C =Copy selected textures     Ctrl-V           =Paste selected textures
+ SPACE  =Change used flag           ENTER            =Change active flag
+ ESC    =Clear selection            DEL              =Delete overlay texture
+ r,R    =Increase / Decrease group  Shift-0123456789 =Change active flag by groups
+ g,w    =Set ground / wall texture  p                =Change texture plane
+ TAB    =Change cursor mode
+ Cursor mode: Texture               Cursor mode: List
+  Ctrl-Cursor      =Set fine XY      up/down          =change selected texture
+  Ctrl-Pag+/Pag-   =Set fine Z       Ctrl-Up/Down     =Select several textures
+  Cursor           =Set XY
+  Pag+/Pag-        =Set Z 
+  Alt-Cursor       =Set size
+

@@ -1,0 +1,25 @@
+Edition mode 5: Light sources
+ Shift-0    =Select ambient light    q,w         =Source intensity (+-0.20)
+ Shift-1..8 =Select light source     Ctrl-q,w    =Source intensity (+-0.05)
+ Cursor     =Light source cell       Ctrl-Cursor =Light source cell (fine)     
+ Pag+,Pag-  =Light source height     Ctrl-Pag    =Light source height (fine)  
+ a,z        =Change red component    r           =Reset light source
+ s,x        =Change green component  Del         =Clear light source
+ d,c        =Change blue component   Ctrl-del    =Clear all light sources
+ Space(AmbL)=Store light map on/off  f,v         =Aproximation factor    
+ Space(LSrc)=Light source on/off     g           =Light map difusion factor
+ u          =Display unified shadow planes
+
+Edition mode 6: Link points
+ d =Set default entry point          ENTER =Edit link point location
+ n =Set entry point                  CURSOR =Move
+ l =Set two-way link point
+ x =Set exit point
+
+Edition mode 7: Events
+ i =Edit event ID
+ a =Edit event alias
+ t =Change event type 
+
+Edition mode 8: Navigation
+ Cursor =Move entity                 Pag+,Pag-   =Change entity type
