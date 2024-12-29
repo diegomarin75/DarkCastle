@@ -1,6 +1,6 @@
 # Dark Castle
 
-** Dungeon crawler on isometric perspective **
+**Dungeon crawler on isometric perspective**
 
 ![plot](./screenshots/map_directory_2.jpg)
 
