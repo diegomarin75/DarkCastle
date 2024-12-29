@@ -18,7 +18,7 @@ Shadows are depicted for static elements in the scene. However, the shadow algor
 
 The rendering of scenes is done without the aid of 3D graphics libraries (OpenGL or similar); everything is implemented and calculated pixel by pixel. This is why the shadow algorithm is not dynamic and cannot render moving objects, as the calculation of shadows is computationally intensive and cannot be done in real-time (it is pre-calculated and used when the scene is rendered).
 
-All the textures seen in the screenshots come from Doom, Doom II, Heretic, and Hexen computer games. These games are from the 90s, but their graphical resources are not free, so I cannot upload them to this repository.
+All the textures seen in the screenshots come from Doom, Doom II, Heretic, and Hexen computer games. These games are from the 90s, but their graphical resources are not free, so I cannot upload them to this repository. Also, the background image on the menu screens comes from DevianArt website, but I do not know who is the author and I cannot include credits for it.
 
 The game is developed using FreeBASIC (version 0.18) and is not fully finished. There are not any enemies or interactive objects; only navigation through the scenes is fully functional.
 
