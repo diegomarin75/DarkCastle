@@ -9,9 +9,9 @@ This is a dungeon crawler game with an isometric perspective, featuring light so
 Here are the features supported by the game engine:
 
 - 3D rendering of textures and sprites with isometric perspective.
-- The scene is divided into squares, with each square having defined floor and ceiling heights. This allows for lower, mid, and upper textures for each square, plus an additional texture for the floor, similar to the old Doom game engine.
+- The scene is divided into squares, with each square having defined floor and ceiling heights. This allows lower, mid, and upper textures for each square, plus an additional texture for the floor, similar to the old Doom game engine.
 - Up to nine different light sources can be defined in each scene, along with ambient light.
-Shadows are depicted for static elements in the scene. However, the shadow algorithm only calculates shadows for static elements; characters and moving objects do not project shadows.
+Shadows are depicted for the elements in the scene. However, the shadow algorithm only calculates shadows for static elements; characters and moving objects do not project shadows.
 - Rendering of sprites for objects, which can be static or animated (if the object has multiple sprites).
 - Rendering of playable characters that can navigate through the scenes.
 - Doors that can be opened and closed, connecting different scenes.
